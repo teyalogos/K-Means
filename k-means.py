@@ -81,7 +81,6 @@ for epoch in range(epochs):
     plt.title("Epoch: %d" % (epoch+1))
     plt.scatter(X[:, 0], X[:, 1], s=40, c=idx, cmap=cmap, alpha=0.5, marker='.')
     plt.scatter(centroids[:, 0], centroids[:, 1], s=100,  c=centroid_colors, cmap=cmap)
-    plt.savefig(str(epoch) + '.png')
 
     plt.draw()
     plt.pause(0.05)
