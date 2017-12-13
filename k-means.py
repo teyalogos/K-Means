@@ -86,4 +86,5 @@ for epoch in range(epochs):
     plt.pause(0.05)
 
 while True:
-    plt.pause(0.05)
+	plt.title("Final Iteration %d" % (epochs))
+	plt.pause(0.05)
